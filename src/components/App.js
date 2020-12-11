@@ -6,7 +6,7 @@ import TransactionScreen from '../screens/TransactionScreen';
 
 const App = () => {
   return (
-    <Router basename='/React'>
+    <Router basename='/coinpayment'>
       <Route exact path='/' component={HomeScreen}></Route>
       <Route exact path='/transaction' component={TransactionScreen}></Route>
     </Router>
